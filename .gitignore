@@ -3,7 +3,8 @@ range/
 __pycache__/
 *.pyc
 .env
-submission/
+submission/**
+!submission/credential-handling.md
 casedesk-brief and artifacts/
 evidence/
 progress.md
