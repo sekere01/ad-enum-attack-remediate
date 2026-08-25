@@ -3,5 +3,10 @@ range/
 __pycache__/
 *.pyc
 .env
-output/
+output/**
+!output/provenance/
+!output/provenance/pre-open-hashes.json
 submission/
+casedesk-brief and artifacts/
+evidence/
+progress.md
