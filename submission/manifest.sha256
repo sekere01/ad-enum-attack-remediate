@@ -17,6 +17,6 @@ fe43de6603bea31dd5c2b706c4761eff5825b3abad87c19dd1fce37d4e5b9d3a  ./graph/health
 ab56e1e50a4ee8a2a25b876453b186259fb6a327b61bbebb7930f19c8196b4e2  ./graph/pre-open-hashes.json
 48e3abd2fabd623e97d4bd65db8c42ef3f9b1528647807c58b5e74b59f5a7787  ./graph/replay-benign.json
 0584573b487dcf5ceb318c340c4449f45e82b0378a26a90d6c7ae38081a423e2  ./graph/replay-positive.json
-a44368e7b10e2a958263112acc1d6df909ff32a81020192909b6db28d21a8fe4  ./graph/state.json
+1042eddc7a1a82270abb03ec88ed7d646f79ccb57c2fbdb8b706f91792c4c116  ./graph/state.json
 693c70009e3d4c161fbcd9691876cb1113904d12bac5b8d61252f70cb2e6cb5e  ./integrity-attestation.md
 f830745efb1967de67c1f7294766af27b1ec91a317e7df19e2d0c2525c071cbb  ./public-tests.json
