@@ -3,16 +3,18 @@ range/
 __pycache__/
 *.pyc
 .env
-output/**
+submission/
+casedesk-brief and artifacts/
+evidence/
+progress.md
+
+# Allow specific output subdirectories
+!output/
+output/*
 !output/provenance/
-!output/provenance/pre-open-hashes.json
 !output/windows-events/
 !output/enumeration/
 !output/detections/
 !output/remediation/
 !output/tests/
 !output/attack-paths.json
-submission/
-casedesk-brief and artifacts/
-evidence/
-progress.md
