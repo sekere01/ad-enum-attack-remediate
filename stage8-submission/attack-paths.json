@@ -1,0 +1,74 @@
+{
+  "path_1": {
+    "name": "SPN Abuse -> Service Token -> Primary Proof",
+    "proof": "archive-primary",
+    "proof_value": "NF-AD1-3036faaf45086bf441f25cff1777",
+    "edge_names": [
+      "WriteSPN",
+      "ReadProof"
+    ],
+    "divergence_point": "candidate-54206ab0",
+    "raw_evidence_locators": [
+      "ACL-01",
+      "FILE-ACL-01"
+    ],
+    "proof_limit": {
+      "accessed": 1,
+      "limit": 1,
+      "over_collected": false
+    },
+    "edges": [
+      {
+        "edge": "WriteSPN",
+        "source": "candidate-54206ab0",
+        "source_record": "ACL-01",
+        "stale": false,
+        "target": "svc-archive-54206ab0"
+      },
+      {
+        "edge": "ReadProof",
+        "source": "svc-archive-54206ab0",
+        "source_record": "FILE-ACL-01",
+        "stale": false,
+        "target": "archive-primary"
+      }
+    ]
+  },
+  "path_2": {
+    "name": "GenericAll -> Group Membership -> Secondary Proof",
+    "proof": "archive-secondary",
+    "proof_value": "NF-AD2-c07e006b267495929c79937edec4",
+    "edge_names": [
+      "GenericAll",
+      "ReadProof"
+    ],
+    "divergence_point": "candidate-54206ab0",
+    "raw_evidence_locators": [
+      "ACL-02",
+      "FILE-ACL-02"
+    ],
+    "proof_limit": {
+      "accessed": 1,
+      "limit": 1,
+      "over_collected": false
+    },
+    "edges": [
+      {
+        "edge": "GenericAll",
+        "source": "candidate-54206ab0",
+        "source_record": "ACL-02",
+        "stale": false,
+        "target": "Archive Operators"
+      },
+      {
+        "edge": "ReadProof",
+        "source": "Archive Operators",
+        "source_record": "FILE-ACL-02",
+        "stale": false,
+        "target": "archive-secondary"
+      }
+    ]
+  },
+  "independent": true,
+  "divergence_edge_credential_or_acl": true
+}

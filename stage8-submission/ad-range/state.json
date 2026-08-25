@@ -1,0 +1,116 @@
+{
+  "binding": "d8b179e5f4dd19274948",
+  "event_sequence": 14,
+  "marker": "UBI-A8-E7C1EEB30702",
+  "objects": [
+    {
+      "enabled": true,
+      "id": "U-3143d6677422-01",
+      "name": "candidate-54206ab0",
+      "type": "user"
+    },
+    {
+      "enabled": true,
+      "id": "U-3143d6677422-02",
+      "name": "svc-archive-54206ab0",
+      "spns": [],
+      "type": "user"
+    },
+    {
+      "id": "G-3143d6677422-01",
+      "members": [],
+      "name": "Archive Operators",
+      "type": "group"
+    },
+    {
+      "id": "G-3143d6677422-02",
+      "members": [],
+      "name": "Directory Administrators",
+      "type": "group"
+    },
+    {
+      "enabled": true,
+      "id": "C-3143d6677422-01",
+      "name": "FILE01",
+      "type": "computer"
+    },
+    {
+      "id": "P-3143d6677422-01",
+      "name": "archive-primary",
+      "type": "proof"
+    },
+    {
+      "id": "P-3143d6677422-02",
+      "name": "archive-secondary",
+      "type": "proof"
+    }
+  ],
+  "relations": [
+    {
+      "edge": "WriteSPN",
+      "source": "candidate-54206ab0",
+      "source_record": "ACL-01",
+      "target": "svc-archive-54206ab0"
+    },
+    {
+      "edge": "GenericAll",
+      "source": "candidate-54206ab0",
+      "source_record": "ACL-02",
+      "target": "Archive Operators"
+    },
+    {
+      "edge": "CanAuthenticate",
+      "source": "svc-archive-54206ab0",
+      "source_record": "AUTH-01",
+      "target": "FILE01"
+    },
+    {
+      "edge": "ReadProof",
+      "source": "svc-archive-54206ab0",
+      "source_record": "FILE-ACL-01",
+      "target": "archive-primary"
+    },
+    {
+      "edge": "ReadProof",
+      "source": "Archive Operators",
+      "source_record": "FILE-ACL-02",
+      "target": "archive-secondary"
+    },
+    {
+      "edge": "RemoteInteractiveLogon",
+      "source": "Archive Operators",
+      "source_record": "RIGHT-01",
+      "target": "FILE01"
+    },
+    {
+      "edge": "AdminTo",
+      "source": "Directory Administrators",
+      "source_record": "LOCAL-01",
+      "target": "FILE01"
+    },
+    {
+      "edge": "MemberOf",
+      "source": "svc-archive-54206ab0",
+      "source_record": "MEMBER-01",
+      "target": "Service Accounts"
+    },
+    {
+      "edge": "GenericAll",
+      "source": "candidate-54206ab0",
+      "source_record": "STALE-01",
+      "stale": true,
+      "target": "deleted-group"
+    }
+  ],
+  "remediated": {
+    "path_1": true,
+    "path_2": true
+  },
+  "schema_version": "2.0",
+  "temporary": {
+    "group_member_added": false,
+    "service_token": false,
+    "spn_added": false
+  },
+  "variant": "D5"
+}

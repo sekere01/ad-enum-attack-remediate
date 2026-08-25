@@ -1,0 +1,14 @@
+{"action": "set-spn", "actor": "candidate-54206ab0", "result": "success", "sequence": 1, "target": "set-spn", "time": "2026-08-25T11:34:12.162814Z"}
+{"action": "request-service-token", "actor": "candidate-54206ab0", "result": "success", "sequence": 2, "target": "request-service-token", "time": "2026-08-25T11:34:12.250134Z"}
+{"action": "read-proof-1", "actor": "candidate-54206ab0", "result": "success", "sequence": 3, "target": "read-proof-1", "time": "2026-08-25T11:34:12.335932Z"}
+{"action": "add-group-member", "actor": "candidate-54206ab0", "result": "success", "sequence": 4, "target": "add-group-member", "time": "2026-08-25T11:34:12.417376Z"}
+{"action": "read-proof-2", "actor": "candidate-54206ab0", "result": "success", "sequence": 5, "target": "read-proof-2", "time": "2026-08-25T11:34:12.495891Z"}
+{"action": "cleanup", "actor": "candidate-54206ab0", "result": "success", "sequence": 6, "target": "cleanup", "time": "2026-08-25T11:34:12.577981Z"}
+{"action": "remediate-path-1", "actor": "candidate-54206ab0", "result": "success", "sequence": 7, "target": "remediate-path-1", "time": "2026-08-25T11:34:27.882972Z"}
+{"action": "remediate-path-2", "actor": "candidate-54206ab0", "result": "success", "sequence": 8, "target": "remediate-path-2", "time": "2026-08-25T11:34:27.952892Z"}
+{"action": "set-spn", "actor": "candidate-54206ab0", "result": "denied", "sequence": 9, "target": "set-spn", "time": "2026-08-25T22:51:40.585950Z"}
+{"action": "request-service-token", "actor": "candidate-54206ab0", "result": "denied", "sequence": 10, "target": "request-service-token", "time": "2026-08-25T22:51:40.672190Z"}
+{"action": "read-proof-1", "actor": "candidate-54206ab0", "result": "denied", "sequence": 11, "target": "read-proof-1", "time": "2026-08-25T22:51:40.754524Z"}
+{"action": "add-group-member", "actor": "candidate-54206ab0", "result": "denied", "sequence": 12, "target": "add-group-member", "time": "2026-08-25T22:51:40.844769Z"}
+{"action": "read-proof-2", "actor": "candidate-54206ab0", "result": "denied", "sequence": 13, "target": "read-proof-2", "time": "2026-08-25T22:51:40.947058Z"}
+{"action": "cleanup", "actor": "candidate-54206ab0", "result": "success", "sequence": 14, "target": "cleanup", "time": "2026-08-25T22:51:41.042302Z"}
