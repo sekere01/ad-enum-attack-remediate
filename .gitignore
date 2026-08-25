@@ -27,3 +27,5 @@ output/*
 !output/tests/
 !output/attack-paths.json
 !output/defense-rehearsal.md
+stage8-submission/**
+!stage8-submission/
