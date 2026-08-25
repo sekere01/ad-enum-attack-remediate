@@ -18,3 +18,4 @@ output/*
 !output/remediation/
 !output/tests/
 !output/attack-paths.json
+!output/defense-rehearsal.md
