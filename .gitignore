@@ -1,0 +1,7 @@
+candidate.json
+range/
+__pycache__/
+*.pyc
+.env
+output/
+submission/
