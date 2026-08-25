@@ -10,6 +10,7 @@ submission/**
 !submission/assessment-manifest.json
 !submission/integrity-attestation.md
 !submission/public-tests.json
+!submission/manifest.sha256
 !submission/graph/
 casedesk-brief and artifacts/
 evidence/
