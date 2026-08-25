@@ -1,0 +1,2 @@
+=== Negative Retest Path 2: add-group-member (should fail) ===
+{"ok": false, "operation": "add-group-member"}

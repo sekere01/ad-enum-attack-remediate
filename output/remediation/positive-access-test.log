@@ -1,0 +1,12 @@
+=== Positive Access Test: health check (should pass) ===
+{
+  "checks": {
+    "binding_present": true,
+    "candidate_present": true,
+    "marker_present": true,
+    "proof_objects_present": true,
+    "service_present": true,
+    "stale_edge_present": true
+  },
+  "healthy": true
+}
