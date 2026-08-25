@@ -5,6 +5,7 @@ __pycache__/
 .env
 submission/**
 !submission/credential-handling.md
+!submission/README.md
 casedesk-brief and artifacts/
 evidence/
 progress.md
