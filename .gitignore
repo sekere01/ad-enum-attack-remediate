@@ -3,29 +3,9 @@ range/
 __pycache__/
 *.pyc
 .env
-submission/**
-!submission/credential-handling.md
-!submission/README.md
-!submission/evidence-index.csv
-!submission/assessment-manifest.json
-!submission/integrity-attestation.md
-!submission/public-tests.json
-!submission/manifest.sha256
-!submission/graph/
-casedesk-brief and artifacts/
 evidence/
 progress.md
-
-# Allow specific output subdirectories
-!output/
-output/*
-!output/provenance/
-!output/windows-events/
-!output/enumeration/
-!output/detections/
-!output/remediation/
-!output/tests/
-!output/attack-paths.json
-!output/defense-rehearsal.md
-stage8-submission/**
-!stage8-submission/
+output/
+stage8-submission/
+stage8-submission.zip
+.pytest_cache/

@@ -4,7 +4,7 @@ import json
 
 def test_automation_runs_clean():
     result = subprocess.run(
-        ["python3", "src/automation.py", "--assignment", "candidate.json", "--root", "range"],
+        ["python3", "src/automation.py", "--assignment", "candidate.json", "--root", "ad-range"],
         capture_output=True, text=True)
     assert result.returncode == 0, f"stderr: {result.stderr}"
     output = json.loads(result.stdout)

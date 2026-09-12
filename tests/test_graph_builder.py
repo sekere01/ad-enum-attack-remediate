@@ -3,14 +3,14 @@ from src.graph_builder import build_graph
 
 
 def test_build_graph_loads_objects():
-    state = json.load(open("range/state.json"))
+    state = json.load(open("ad-range/state.json"))
     graph = build_graph(state)
     assert len(graph["nodes"]) >= 7
     assert len(graph["edges"]) >= 8
 
 
 def test_build_graph_has_schema_version():
-    state = json.load(open("range/state.json"))
+    state = json.load(open("ad-range/state.json"))
     graph = build_graph(state)
     assert "schema_version" in graph
     assert graph["schema_version"] == "2.0"
