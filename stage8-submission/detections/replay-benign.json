@@ -1,9 +1,0 @@
-{
-  "fixture": "approved_acl_admin",
-  "expected": "no_alert",
-  "events": [
-    {"action": "approved_acl_admin", "result": "success"}
-  ],
-  "result": "no_alert",
-  "passed": true
-}

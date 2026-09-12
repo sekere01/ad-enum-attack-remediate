@@ -1,4 +1,0 @@
-=== Negative Retest Path 1: set-spn (should fail) ===
-{"ok": false, "operation": "set-spn"}
-=== Negative Retest Path 1: request-service-token (should fail) ===
-{"ok": false, "operation": "request-service-token"}

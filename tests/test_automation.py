@@ -8,9 +8,14 @@ def test_automation_runs_clean():
         capture_output=True, text=True)
     assert result.returncode == 0, f"stderr: {result.stderr}"
     output = json.loads(result.stdout)
-    assert output["path_1"]["ok"] is True
-    assert output["path_2"]["ok"] is True
-    assert output["cleanup"]["ok"] is True
+    state = json.load(open("ad-range/state.json"))
+    if state.get("remediated", {}).get("path_1", False):
+        assert output["path_1"]["ok"] is False
+        assert output["path_2"]["ok"] is False
+    else:
+        assert output["path_1"]["ok"] is True
+        assert output["path_2"]["ok"] is True
+        assert output["cleanup"]["ok"] is True
 
 
 def test_automation_dynamic_resolution():

@@ -66,3 +66,15 @@
 {"action": "add-group-member", "actor": "candidate-54206ab0", "result": "denied", "sequence": 66, "target": "add-group-member", "time": "2026-08-28T16:06:37.763777Z"}
 {"action": "read-proof-2", "actor": "candidate-54206ab0", "result": "denied", "sequence": 67, "target": "read-proof-2", "time": "2026-08-28T16:06:37.959154Z"}
 {"action": "cleanup", "actor": "candidate-54206ab0", "result": "success", "sequence": 68, "target": "cleanup", "time": "2026-08-28T16:06:38.175960Z"}
+{"action": "set-spn", "actor": "candidate-54206ab0", "result": "denied", "sequence": 69, "target": "set-spn", "time": "2026-09-12T23:02:00.349958Z"}
+{"action": "request-service-token", "actor": "candidate-54206ab0", "result": "denied", "sequence": 70, "target": "request-service-token", "time": "2026-09-12T23:02:00.625653Z"}
+{"action": "read-proof-1", "actor": "candidate-54206ab0", "result": "denied", "sequence": 71, "target": "read-proof-1", "time": "2026-09-12T23:02:00.803409Z"}
+{"action": "add-group-member", "actor": "candidate-54206ab0", "result": "denied", "sequence": 72, "target": "add-group-member", "time": "2026-09-12T23:02:00.985254Z"}
+{"action": "read-proof-2", "actor": "candidate-54206ab0", "result": "denied", "sequence": 73, "target": "read-proof-2", "time": "2026-09-12T23:02:01.193695Z"}
+{"action": "cleanup", "actor": "candidate-54206ab0", "result": "success", "sequence": 74, "target": "cleanup", "time": "2026-09-12T23:02:01.407111Z"}
+{"action": "set-spn", "actor": "candidate-54206ab0", "result": "denied", "sequence": 75, "target": "set-spn", "time": "2026-09-12T23:02:34.196611Z"}
+{"action": "request-service-token", "actor": "candidate-54206ab0", "result": "denied", "sequence": 76, "target": "request-service-token", "time": "2026-09-12T23:02:34.372722Z"}
+{"action": "read-proof-1", "actor": "candidate-54206ab0", "result": "denied", "sequence": 77, "target": "read-proof-1", "time": "2026-09-12T23:02:34.551741Z"}
+{"action": "add-group-member", "actor": "candidate-54206ab0", "result": "denied", "sequence": 78, "target": "add-group-member", "time": "2026-09-12T23:02:34.715326Z"}
+{"action": "read-proof-2", "actor": "candidate-54206ab0", "result": "denied", "sequence": 79, "target": "read-proof-2", "time": "2026-09-12T23:02:34.851435Z"}
+{"action": "cleanup", "actor": "candidate-54206ab0", "result": "success", "sequence": 80, "target": "cleanup", "time": "2026-09-12T23:02:35.035591Z"}
